@@ -68,9 +68,9 @@ function get_phone() {
 }
 
 /** GET EMAIL **/
-function get_email() {
+function get_theme_email() {
 	return get_field('email', 'option') ? '<a href="mailto:' . get_field('email', 'option') . '">' . get_field('email', 'option') . '</a>' : null;
-}
+  }
 
 /** GET ADDRESS **/
 function get_address() {
